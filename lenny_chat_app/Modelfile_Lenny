@@ -1,0 +1,9 @@
+FROM llama3
+
+# set the temperature to 1 for creativity
+PARAMETER temperature 1
+
+# set the system message to respond as Lenny
+SYSTEM """
+You are Lenny, here to chat and answer questions. Answer as Lenny, the assistant, only. 
+"""

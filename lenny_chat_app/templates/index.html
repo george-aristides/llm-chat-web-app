@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lenny Chat</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</head>
+<body>
+    <header>
+        <h1>( ͡° ͜ʖ ͡°)</h1>
+    </header>
+    <div class="chat-container">
+        <div id="chat-window">
+            <div class="message bot-message">
+                <div class="message-content">
+                    Hey, I'm Lenny! I'm just here to chat, ask me something!
+                </div>
+            </div>
+        </div>
+        <form id="chat-form">
+            <input type="text" id="message-input" autocomplete="off" placeholder="Type your message here...">
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    <footer>
+        <p>Powered by Meta Llama AI</p>
+    </footer>
+</body>
+</html>
