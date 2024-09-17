@@ -12,7 +12,7 @@ This set up applies to all versions.
 
 EC2 instance
 
-AMI: Ubuntu Server 20.04 LTS (HVM), SSD Volume Type
+AMI: Ubuntu Server 22.04 LTS (HVM), SSD Volume Type
 
 Instance Type: g4dn.xlarge
 This instance type requires 4vcpu cores at the account level, which must be requested. Check this video for details on how do request these resources https://www.youtube.com/watch?v=jTgrK1_2JWs&t=56s
